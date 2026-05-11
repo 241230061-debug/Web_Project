@@ -3,12 +3,11 @@
 @section('title', 'Beranda')
 
 @section('content')
-    
+ 
     @include('partials.hero')
+
     @include('partials.services')
+
     @include('partials.ai-matcher')
-    
-    @include('partials.harga')
-    @include('partials.kontak')
 
 @endsection
